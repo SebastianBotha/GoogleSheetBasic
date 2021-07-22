@@ -9,6 +9,7 @@ class GSheet():
     3. workbook_name is the name of the google sheet we are accessing 
     4. sheet_name is the specifc sheet to access within the workbook 
     5. Setup refernce: https://www.youtube.com/watch?v=cnPlKLEGR7E
+    6. module reference https://docs.gspread.org/en/v3.7.0/
     """
     def __init__(self, workbook_name, sheet_name):
         # print(" Accessing the init scripts")
